@@ -1,10 +1,10 @@
 package main
 
 import (
-	"log"
-	"net/http"
 	"bufio"
 	"fmt"
+	"log"
+	"net/http"
 )
 
 func main() {

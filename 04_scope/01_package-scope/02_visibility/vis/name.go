@@ -1,4 +1,7 @@
 package vis
 
+//MyName Shows exported var should have a comment
 var MyName = "Justin"
-var yourName = "Future Go Programmer"
+
+//YourName Shows exported var should have a comment
+var YourName = "Future Go Programmer"

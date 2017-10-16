@@ -19,4 +19,3 @@ func main() {
 	// this conversion works
 	fmt.Println(int(myAge) + yourAge)
 }
-

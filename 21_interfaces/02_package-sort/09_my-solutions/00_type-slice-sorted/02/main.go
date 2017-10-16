@@ -12,4 +12,3 @@ func main() {
 	sort.StringSlice(s).Sort()
 	fmt.Println(s)
 }
-

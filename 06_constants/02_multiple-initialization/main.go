@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 const (
-	Pi       = 3.14
-	Language = "Go"
+	pi       = 3.14
+	language = "Go"
 )
 
 func main() {
-	fmt.Println(Pi)
-	fmt.Println(Language)
+	fmt.Println(pi)
+	fmt.Println(language)
 }

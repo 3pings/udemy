@@ -1,10 +1,10 @@
 package main
 
 import (
-	"log"
-	"net/http"
 	"bufio"
 	"fmt"
+	"log"
+	"net/http"
 )
 
 func main() {
@@ -19,14 +19,14 @@ func main() {
 	scanner.Split(bufio.ScanWords)
 	buckets := make([]int, 12)
 	for scanner.Scan() {
-		n := HashBucket(scanner.Text(), 12)
+		n := hashBucket(scanner.Text(), 12)
 		buckets[n]++
 	}
 	fmt.Println(buckets)
 
 }
 
-func HashBucket (word string, buckets int) int {
+func hashBucket(word string, buckets int) int {
 	// letter := rune(word[0])
 	letter := int(word[0])
 	bucket := letter % buckets

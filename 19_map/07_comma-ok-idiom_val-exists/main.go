@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 
 	myGreeting := map[string]string{
-		"Tim":		"Good Morning",
-		"Jenny": 	"Bonjour",
+		"Tim":   "Good Morning",
+		"Jenny": "Bonjour",
 	}
 
 	myGreeting["Harleen"] = "Howdy"
@@ -22,7 +22,6 @@ func main() {
 		fmt.Println("That value does not exists")
 		fmt.Println("val: ", val)
 		fmt.Println("exists: ", exists)
-
 
 	}
 }

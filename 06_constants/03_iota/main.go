@@ -2,12 +2,14 @@ package main
 
 import "fmt"
 
+//A B C exported
 const (
 	A = iota // 0
 	B        // 1
 	C        // 2
 )
 
+//D E F exported
 const (
 	D = iota // 0
 	E        // 1
@@ -20,6 +22,7 @@ const (
 	b = iota * 20
 )
 
+//KB Exported
 const (
 	_  = iota
 	KB = 1 << (iota * 10)
